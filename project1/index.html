@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Printing numbers </h1>
+    <p id="demo"></p>
+    <h1>Printing odd less than 100</h1>
+    <p id="odd"></p>
+    <h1>Calculating the sum of numbers from 1 to 10</h1>
+    <p id ="sum"></p>
+    <h1>Converting from Celsius to Fahrenheit</h1>
+    <p id="temp1"></p>
+    <h1>Converting from Fahrenheit to Celsius</h1>
+    <p id="temp2"></p>
+    <h1>Calculating the sum of numbers in an array</h1>
+    <p id="addArray"></p>
+
+     <!-- Print numbers 1-10-->
+  
+
+    <!-- Print odd numbers from 1-100 -->
+    <script>
+       let oddnumbers = "";
+       for ( i = 1; i <=100; i+=2) {
+           // if (i % 2 != 0);
+           oddnumbers += i + "<br>";
+       }
+       document.getElementById("odd").innerHTML += oddnumbers;
+    
+
+// //    <!-- Calculate the sum of numbers 1 to 10 -->
+//        function sum(...args) {
+//            let sum = 0;
+//            for (let arg of args) sum += arg;
+//            return sum; 
+//        }
+//        let x = sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+//        document.getElementById("sum").innerHTML = x;
+    
+
+// // <!-- Converting from Celsius to Fahrenheit -->
+//       function toFahrenheit(celsius) {
+//        return (celsius * 9/5) + 32;
+//       }
+//       let value = toFahrenheit(55);
+//       document.getElementById("temp1").innerHTML = value;
+
+
+// // <!-- Converting from Fahrenheit to Celsius -->
+//    function toCelsius(fahrenheit) {
+//        return (5/9) * (fahrenheit - 32);
+//    }
+//    let temp = toCelsius(99);
+//    document.getElementById("temp2").innerHTML = temp;
+
+
+// // <!-- Calculate the sum of numbers in an array of numbers. [2, 3, -1, 5, 7, 9, 10, 15, 95] -->
+//    function sum(...args) {
+//        let sum = 0;
+//        for (let arg of args) sum += arg;
+//        return sum; 
+//    }
+//    let y = sum(2, 3, -1, 5, 7, 9, 10, 15, 95);
+//    document.getElementById("addArray").innerHTML = y;
+
+
+// <!-- Calculate the average of the numbers in an array of numbers -->
+ 
+   
+ </script>
+
+</body>
+</html>
+   
+   
